@@ -148,10 +148,11 @@ print identity of 10;
 
 ## Errors in Mint
 There are several types of errors which may be thrown by a Mint program. All errors are considered fatal and will halt execution if they are encountered.
++ `NumberFormat` - Thrown if a number in the source code is badly formatted.
 + `NullReference` - Thrown if a variable that has not yet been declared is referenced.
 + `VariableMutation` - Thrown if an existing variable is reassigned.
 + `InvalidCharacter` - Thrown if an unrecognized character is found in the source code.
 + `InvalidSyntax` - Thrown if invalid syntax is encountered while parsing the source code.
 
-There are two other types of errors, `InvalidBinaryOp` and `UnimplementedVisitor`.
+There are a few other types of errors, `InvalidBinaryOp`, `InvalidUnaryOp` and `UnimplementedVisitor`.
 These errors indicate that there is a problem with the interpreter itself. If you encounter one of these errors, please consider opening an issue and including the code necessary to reproduce the error.
