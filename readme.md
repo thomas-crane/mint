@@ -8,6 +8,7 @@ A simple, mathematical language.
 2. [Install](#install)
     + [From npm](#from-npm)
     + [From GitHub](#from-github)
+    + [VSCode language support](#vscode-language-support)
 3. [Using Mint](#using-mint)
     + [The REPL](#the-repl)
         + [REPL commands](#repl-commands)
@@ -38,6 +39,11 @@ git clone https://github.com/thomas-crane/mint.git
 cd mint
 npm link
 ```
+
+## VSCode language support
+The [Mint Language Support](https://marketplace.visualstudio.com/items?itemName=thomas-crane.mint-lang-support) extension for VSCode is available from the Visual Studio Marketplace, and the source code for the extension is [available on GitHub.](https://github.com/thomas-crane/mint-language-support)
+
+The extension provides syntax highlighting for the language, as well as snippets to make writing Mint code easier.
 
 # Using Mint
 There are several ways to use the Mint language after it is installed. Mint is first and foremost designed to be an interpreted language, but also has a compiler to JavaScript.
