@@ -1,6 +1,8 @@
 # Mint
 A simple, mathematical language.
 
+[![Build Status](https://travis-ci.org/thomas-crane/mint.svg?branch=master)](https://travis-ci.org/thomas-crane/mint)
+
 ## Contents
 1. [Foreword](#foreword)
 2. [Install](#install)
